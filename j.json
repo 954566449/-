@@ -1,0 +1,10 @@
+<p>
+history: <span id="jhis"></span><br />
+
+</p>
+
+<script type="text/javascript">
+var JSONObject= {
+"history":"abc"};
+document.getElementById("jhis").innerHTML=JSONObject.history
+</script>
